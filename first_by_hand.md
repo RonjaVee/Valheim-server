@@ -103,8 +103,8 @@ NullGfxDevice:
     Renderer: Null Device
     Vendor:   Unity Technologies
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.112 seconds
-- Finished resetting the current domain, in  0.002 seconds
+-Loaded All Assemblies, in  0.112 seconds
+-Finished resetting the current domain, in  0.002 seconds
 ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 There is no texture data available to upload.
