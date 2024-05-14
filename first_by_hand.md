@@ -53,8 +53,8 @@ sudo ufw allow 2457
 
 ```
 
+![image](https://github.com/RonjaVee/Valheim-server/assets/148786247/3a4c1261-9714-4d98-baec-18f2ec613023)
 
-![image](https://github.com/RonjaVee/Valheim-server/assets/148786247/51be48ce-260e-45b8-a325-377a78062f96)
 
 In game searched for 127.0.0.1. Was unable to connect. I'm guessing the process may exceed available resources, such as memory or processor capacity on my virtual machine, as it keeps getting killed immediately. The requirements can be found on [Valheim wiki on dedicated servers](https://valheim.fandom.com/wiki/Dedicated_servers)
 
