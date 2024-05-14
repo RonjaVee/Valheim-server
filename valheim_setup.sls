@@ -58,4 +58,4 @@ run_steamcmd_commands:
 
 run_start_server_script:
   cmd.run:
-    - name: su - valheim -c "/home/valheim/server/start_server.sh"
+    - name: "su - valheim -c '/home/valheim/server/start_server.sh'"
