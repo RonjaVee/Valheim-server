@@ -3,7 +3,7 @@ A school project.
 
 Project Purpose:
 
-The purpose of this project is to develop a module that facilitates the setup of a Valheim game server in a Linux environment (operating system being Debian in this case). 
+The purpose of this project is to develop a module that facilitates the setup of a Valheim game server in a Linux environment (operating system being Debian in this case). Salt and Git must be installed beforehand.
 
 Installation of Valheim Server: The module automates the installation of the Valheim server on the Debian operating system. This includes installing necessary packages.
 
