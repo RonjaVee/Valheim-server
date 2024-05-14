@@ -24,7 +24,7 @@ su - valheim
 
 mkdir server
 
-cd server
+cd server/
 
 steamcmd
 
@@ -36,7 +36,6 @@ app_update 896660 validate
 
 exit
 
-cd server/
 
 nano start_server.sh
 
