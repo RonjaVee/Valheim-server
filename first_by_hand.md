@@ -8,7 +8,7 @@ Commands used:
 ```
 sudo apt-get update
 
-sudo apt install software-properties-common
+sudo apt install -y software-properties-common
 
 sudo apt-add-repository non-free
 
