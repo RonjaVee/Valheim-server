@@ -22,6 +22,10 @@ sudo adduser valheim
 
 su - valheim
 
+mkdir server
+
+cd server
+
 steamcmd
 
 force_install_dir /home/valheim/server/
