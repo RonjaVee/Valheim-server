@@ -59,7 +59,7 @@ In game searched for 127.0.0.1:2456. Was unable to connect.
 
 ![Näyttökuva (14)](https://github.com/RonjaVee/Valheim-server/assets/148786247/e9e117fb-cd49-4b94-bb46-a2c3a52974f1)
 
-I created a virtual machine with vagrant using this configuration (I gave the server requirements to ChatGPT and used the vagrantfile contents it gave):
+I created a virtual machine with Vagrant for testing using this configuration (I gave the server requirements to ChatGPT and used the vagrantfile contents it gave):
 
 ```
 Vagrant.configure("2") do |config|
