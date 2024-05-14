@@ -57,6 +57,20 @@ In game searched for 127.0.0.1. Was unable to connect. I'm guessing the process 
 
 ![Näyttökuva (14)](https://github.com/RonjaVee/Valheim-server/assets/148786247/e9e117fb-cd49-4b94-bb46-a2c3a52974f1)
 
+I created a virtual machine with vagrant using this configuration (I gave the server requirements to ChatGPT and used the vagrantfile contents it gave):
+
+```
+Vagrant.configure("2") do |config|
+  config.vm.box = "debian/bullseye64"
+  config.vm.hostname = "valheim-server"
+
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = 4096 # 4 GB RAM
+    vb.cpus = 2      # 2 CPU cores
+  end
+end
+```
+
 
 
 
