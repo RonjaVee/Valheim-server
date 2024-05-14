@@ -8,6 +8,16 @@ Commands used:
 ```
 sudo apt-get update
 
+sudo apt install ufw
+
+sudo ufw allow 22
+
+sudo ufw enable
+
+sudo ufw allow 2456
+
+sudo ufw allow 2457
+
 sudo apt install software-properties-common
 
 sudo apt-add-repository non-free
@@ -36,18 +46,7 @@ app_update 896660 validate
 
 exit
 
-
 nano start_server.sh
-
-sudo apt install ufw
-
-sudo ufw allow 22
-
-sudo ufw enable
-
-sudo ufw allow 2456
-
-sudo ufw allow 2457
 
 ./start_server.sh
 
@@ -56,7 +55,7 @@ sudo ufw allow 2457
 ![image](https://github.com/RonjaVee/Valheim-server/assets/148786247/3a4c1261-9714-4d98-baec-18f2ec613023)
 
 
-In game searched for 127.0.0.1. Was unable to connect. I'm guessing the process may exceed available resources, such as memory or processor capacity on my virtual machine, as it keeps getting killed immediately. The requirements can be found on [Valheim wiki on dedicated servers](https://valheim.fandom.com/wiki/Dedicated_servers)
+In game searched for 127.0.0.1:2456. Was unable to connect.
 
 ![Näyttökuva (14)](https://github.com/RonjaVee/Valheim-server/assets/148786247/e9e117fb-cd49-4b94-bb46-a2c3a52974f1)
 
