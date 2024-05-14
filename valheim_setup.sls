@@ -16,7 +16,8 @@ enable_ufw:
 
 allow_ports_2456_2457:
   cmd.run:
-    - name: sudo ufw allow 2456 && sudo ufw allow 2457
+    - name: sudo ufw allow 2456
+    - name: sudo ufw allow 2457
 
 install_software_properties_common:
   pkg.installed:
@@ -31,7 +32,9 @@ add_i386_architecture:
     - name: sudo dpkg --add-architecture i386
 
 update_repository:
-  pkg.refresh_db: {}
+  cmd.run:
+    - name: sudo apt update
+
 
 install_required_packages:
   pkg.installed:
