@@ -39,8 +39,6 @@ exit
 
 nano start_server.sh
 
-./myserverstart.sh
-
 sudo apt install ufw
 
 sudo ufw allow 22
@@ -50,6 +48,8 @@ sudo ufw enable
 sudo ufw allow 2456
 
 sudo ufw allow 2457
+
+./start_server.sh
 
 ```
 
