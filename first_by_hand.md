@@ -50,7 +50,7 @@ exit
 
 ```
 
-In game searched for 127.0.0.1:2456. Was unable to connect.
+In game searched for 127.0.0.1:2456. Was unable to connect, but got the server running.
 
 ![Näyttökuva (14)](https://github.com/RonjaVee/Valheim-server/assets/148786247/e9e117fb-cd49-4b94-bb46-a2c3a52974f1)
 
