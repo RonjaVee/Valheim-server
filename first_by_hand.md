@@ -44,14 +44,11 @@ app_update 896660 validate
 
 exit
 
-nano start_server.sh
+# you can edit the start_server.sh file here for additional configuration
 
 ./start_server.sh
 
 ```
-
-![image](https://github.com/RonjaVee/Valheim-server/assets/148786247/3a4c1261-9714-4d98-baec-18f2ec613023)
-
 
 In game searched for 127.0.0.1:2456. Was unable to connect.
 
