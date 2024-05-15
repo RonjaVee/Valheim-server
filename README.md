@@ -11,7 +11,7 @@ Utilizing SaltStack: I use SaltStack as an automation tool. SaltStack is used to
 
 Why This is Beneficial:
 
-This module makes setting up a Valheim server easier and faster in a Linux environment. It reduces manual work and the risk of errors, allowing players to spend more time enjoying their gaming experience.
+This module makes setting up a Valheim server easier and faster in a Linux environment. It reduces manual work and the risk of errors, allowing players to spend more time playing the actual game.
 
 
 Course: Karvinen, Tero. Infra as Code - Palvelinten hallinta 2024. [https://terokarvinen.com/2024/configuration-management-2024-spring/](https://terokarvinen.com/2024/configuration-management-2024-spring/)
