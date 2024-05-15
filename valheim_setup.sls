@@ -7,10 +7,6 @@ allow_ssh:
   cmd.run:
     - name: sudo ufw allow 22
 
-enable_ufw:
-  cmd.run:
-    - name: sudo ufw enable
-
 allow_ports_2456_2457:
   cmd.run:
     - name: sudo ufw allow 2456
