@@ -19,5 +19,6 @@ Course: Karvinen, Tero. Infra as Code - Palvelinten hallinta 2024. [https://tero
 Sources used: 
 - LucianDev. Valheim Server Setup Tutorial | Linux Guide. 19.12.2022 Youtube. [https://www.youtube.com/watch?v=DmVA2L9z4V0](https://www.youtube.com/watch?v=DmVA2L9z4V0)
 - Valve Developer Community. SteamCMD. Last edited 15.2.2024. [https://developer.valvesoftware.com/wiki/SteamCMD#Debian](https://developer.valvesoftware.com/wiki/SteamCMD#Debian)
-- OpenAI. "ChatGPT (GPT-3.5)". OpenAI API, https://openai.com, 2024.
+- OpenAI. "ChatGPT (GPT-3.5)". OpenAI API, https://openai.com, 2024. Used for problem solving in multiple occasions.
 
+Made by Ronja Vauhkonen
