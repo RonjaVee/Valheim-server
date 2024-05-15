@@ -60,6 +60,7 @@ create_valheim_server_directory:
 set_installation_directory:
   cmd.run:
     - name: sudo -u valheim /usr/games/steamcmd +force_install_dir /home/valheim/server
+    - cwd: /home/valheim/server
 
 # Run steamcmd and log in as anonymous
 steamcmd_login:
