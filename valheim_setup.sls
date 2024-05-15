@@ -1,8 +1,5 @@
-update_packages:
-  cmd.run:
-    - name: sudo apt-get update
-
-install_ufw:
+# Set up firewall
+setup_firewall:
   pkg.installed:
     - name: ufw
 
@@ -19,9 +16,13 @@ allow_ports_2456_2457:
     - name: sudo ufw allow 2456
     - name: sudo ufw allow 2457
 
-install_software_properties_common:
+# Server setup
+setup_server:
   pkg.installed:
-    - name: software-properties-common
+    - names:
+      - software-properties-common
+      - lib32gcc-s1
+      - steamcmd
 
 add_nonfree_repository:
   cmd.run:
@@ -34,13 +35,6 @@ add_i386_architecture:
 update_repository:
   cmd.run:
     - name: sudo apt update
-
-
-install_required_packages:
-  pkg.installed:
-    - names:
-      - lib32gcc-s1
-      - steamcmd
 
 add_valheim_user:
   user.present:
@@ -59,6 +53,7 @@ run_steamcmd_commands:
     - name: |
         steamcmd +login anonymous +force_install_dir /home/valheim/server/ +app_update 896660 validate +quit
 
-run_start_server_script:
+# Start Valheim server
+start_valheim_server:
   cmd.run:
     - name: "su - valheim -c '/home/valheim/server/start_server.sh'"
