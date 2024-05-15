@@ -12,8 +12,6 @@ sudo apt install ufw
 
 sudo ufw allow 22
 
-sudo ufw enable
-
 sudo ufw allow 2456
 
 sudo ufw allow 2457
