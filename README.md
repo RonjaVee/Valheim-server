@@ -16,7 +16,7 @@ This module makes setting up a Valheim server easier and faster in a Linux envir
 
 Course: Karvinen, Tero. Infra as Code - Palvelinten hallinta 2024. [https://terokarvinen.com/2024/configuration-management-2024-spring/](https://terokarvinen.com/2024/configuration-management-2024-spring/)
 
-Soruces used: 
+Sources used: 
 - LucianDev. Valheim Server Setup Tutorial | Linux Guide. 19.12.2022 Youtube. [https://www.youtube.com/watch?v=DmVA2L9z4V0](https://www.youtube.com/watch?v=DmVA2L9z4V0)
 - Valve Developer Community. SteamCMD. Last edited 15.2.2024. [https://developer.valvesoftware.com/wiki/SteamCMD#Debian](https://developer.valvesoftware.com/wiki/SteamCMD#Debian)
 - OpenAI. "ChatGPT (GPT-3.5)". OpenAI API, https://openai.com, 2024.
